@@ -1,0 +1,91 @@
+'<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+
+<main class="main-principal">
+
+  <!-- Sign-up form start -->
+
+    <picture >
+      <source srcset="./assets/images/illustration-sign-up-desktop.svg" class="foto1" media="(min-width: 1440px)">
+      <img class="foto1" src="./assets/images/illustration-sign-up-mobile.svg" alt="" >
+    </picture>
+
+  <!-- <img class="fotomovil" src="./assets/images/illustration-sign-up-mobile.svg" alt=""> -->
+
+  <div class="todo">
+
+    <h1 class="stay roboto700">Stay updated!</h1>
+    
+    <h2 class="roboto400">Join 60,000+ product managers receiving monthly updates on:</h2>
+
+    <div class="puntos roboto400">
+
+
+      <img src="./assets/images/icon-list.svg" class="punto" alt="">
+      <p class="puntotexto">Product discovery and building what matters</p>
+
+      <img src="./assets/images/icon-list.svg" class="punto" alt="">
+      <p class="puntotexto">Measuring to ensure updates are a success</p>
+
+      <img src="./assets/images/icon-list.svg" class="punto" alt="">
+      <p class="puntotexto">And much more!</p>
+
+    </div>
+
+      <p class="email roboto700">
+        Email address <span id="emailrequerido" class="valid-email-required roboto700 email"></span>
+      </p>
+    
+    <input class="roboto400" type="email" id="elemail" value="" placeholder="email@company.com">
+
+    <button class="boton1 roboto400" onclick="suscrito()">
+      Subscribe to monthly newsletter
+    </button>
+
+
+    
+
+    
+
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+
+    <div class="mensajeaceptado"></div>
+
+
+
+  </div>
+
+  <!-- Success message end -->
+
+  <!-- <img class="fotodesktop" src="./assets/images/illustration-sign-up-desktop.svg" alt=""> -->
+
+</main>
+  
+</body>
+
+<script src="./JS/script.js"></script>
+
+</html>'

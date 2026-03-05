@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+:root {
+    --Red: hsl(4, 100%, 67%);
+    --Blue800: hsl(234, 29%, 20%);
+    --Blue700: hsl(235, 18%, 26%);
+    --Grey: hsl(0, 0%,58%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/*---------------------------------------------------------------------*/
+
+.roboto400 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-weight: 400;
+}
+
+.roboto700 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-weight: 700;
+}
+
+/*-----------------------------------------------------------------------*/
+
+main {
+    width: 375px;
+    margin: auto;
+}
+
+
+.todo {
+    margin: 30px 25px;
+}
+
+.stay {
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.puntos {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 15px;
+}
+
+.punto {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.puntotexto {
+    margin-top: 15px;
+}
+
+.email {
+    font-size: small;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 275px;
+}
+
+button {
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: var(--Blue800);
+    color: var(--White);
+    border-color: var(--Blue800);
+}
+
+.boton1 {
+    width: 310px;
+}
+
+.mensajeaceptado {
+    display: none;
+}
+
+/*----------------------------------------------------------------------------*/
+
+.bodysuccess {
+    background-color: var(--Blue800);
+}
+
+.graciastodo {
+    margin-top: 175px;
+    background-color: var(--White);
+    padding: 30px 40px;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.iconosuccess {
+    padding-bottom: 30px;
+}
+
+
+.gracias {
+    color: var(--Blue800);
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+.correoconfirmado {
+    color: var(--Blue800);
+}
+
+#elemail {
+    width: 310px;
+}
+
+.boton2 {
+    padding: 15px 100px;
+    margin-left: 19px;
+    margin-bottom: 18px;
+}
+
+.valid-email-required {
+    margin-left: 105px;
+    color: var(--Red);
+}
+
+.fotodesktop {
+    display: none;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+@media (min-width: 1440px) {
+
+    body {
+        background-color: var(--Blue800);
+    }
+
+
+
+    main {
+        width: 825px;
+        background-color: var(--White);
+        border-radius: 30px;
+        margin-top: 60px;
+        padding: 40px;
+    }
+
+    .main-principal {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .stay {
+        font-size: 48px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+
+
+}
+
